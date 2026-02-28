@@ -85,20 +85,6 @@ python debug_folder.py
 
 3. **Safety**: If a file already exists in the destination, it's skipped to prevent overwrites
 
-## Project Structure
-
-```
-gallery-autosorter/
-├── src/
-│   ├── main.py          # Main application
-│   └── utils/
-│       └── file_ops.py  # File operation utilities
-├── debug_exif.py        # Debug tool for single images
-├── debug_folder.py      # Debug tool for folder analysis
-├── requirements.txt     # Python dependencies
-└── README.md            # This file
-```
-
 ## Dependencies
 
 - **Pillow**: Image processing and EXIF extraction
